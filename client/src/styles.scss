@@ -8,12 +8,20 @@ body,
   height: 100%;
   margin: 0;
   padding: 0;
+  text-align: center;
+  background-color: lightblue;
+  color: white;
 }
 
 .App {
   font-family: "Montserrat", sans-serif;
   text-align: center;
   display: flex;
+  align-content: center;
+  align-items:  center;
+  flex-direction: column;
+  text-align: center;
+
 
   svg {
     height: 100%;
@@ -33,7 +41,7 @@ body,
 .colors-wrap {
   height: 100%;
   width: 300px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px white, 0 3px 6px white;
 
   ul {
     list-style: none;
@@ -64,6 +72,9 @@ form {
   margin-top: 60px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
 
   legend {
     padding-left: 40px;
@@ -91,8 +102,8 @@ form {
 
   button {
     border: none;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 3px 8px;
     margin-top: 16px;
   }
